@@ -1,10 +1,10 @@
-# 🥤 Fruki Engine - Sistema Inteligente de Recomendações e Notificações
+# Fruki Engine - Sistema Inteligente de Recomendações e Notificações
 
 Sistema backend desenvolvido em **Django REST Framework** integrado ao **Supabase (PostgreSQL)**, projetado para automatizar e otimizar o mix de produtos oferecidos a estabelecimentos parceiros da Fruki. O motor cruza dados cadastrais dos clientes, histórico de giro e fatores externos em tempo real — como **condições meteorológicas (Open-Meteo)** e **calendário de feriados nacionais (Nager.Date)** — para gerar recomendações altamente assertivas e direcionadas via canais como WhatsApp (*Pede Fruki*) e o aplicativo do vendedor.
 
 ---
 
-## 🚀 Arquitetura e Principais Funcionalidades
+## Arquitetura e Principais Funcionalidades
 
 1. **Motor de Scoring Baseado em Regras (*Rule-Based Scoring*):**
    - Atribui pesos de relevância por segmento (Supermercados, Postos de Conveniência, Atacados, Restaurantes).
@@ -23,7 +23,7 @@ Sistema backend desenvolvido em **Django REST Framework** integrado ao **Supabas
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.12** & **Django / Django REST Framework**
 - **Supabase (PostgreSQL)** para persistência e gestão dos dados de clientes e ERP
@@ -32,7 +32,7 @@ Sistema backend desenvolvido em **Django REST Framework** integrado ao **Supabas
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 1. **Clone o repositório e ative o ambiente virtual:**
    ```bash
